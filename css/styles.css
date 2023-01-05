@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #901CAD;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+    margin: 0;
+}
+
+.img-fluid {
+    height: 150px;
+}
