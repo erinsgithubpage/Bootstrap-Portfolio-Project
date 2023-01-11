@@ -1,14 +1,81 @@
 .navbar {
-    background-color: #901CAD;
+    background-color: #ad1c47;
+    list-style-type: none;
 }
 
 .jumbotron {
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background-image: linear-gradient(to right, #99145d, #3046C5, #60106B);
     color: white;
     margin: 0;
 }
 
 .img-fluid {
     height: 150px;
+}
+
+.fa-solid {
+    visibility: visible;
+}
+
+
+
+body {
+    font-family: "Georgia", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+
+
+.site-footer{
+    background-image: linear-gradient(#ad1c47, white);
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+
+.mr {
+    margin-right: 1em;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
+
+.bio {
+    max-width: 100%;
+    color: purple;
+}
+
+.nav-item {
+    list-style-type: none;
+    
 }
