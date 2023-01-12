@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-portfolio-project",
+  "version": "1.0.0",
+  "description": "Project using Bootstrap for NuCamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "l"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erinsgithubpage/Bootstrap-Portfolio-Project.git"
+  },
+  "author": "Erin Hazelwood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erinsgithubpage/Bootstrap-Portfolio-Project/issues"
+  },
+  "homepage": "https://github.com/erinsgithubpage/Bootstrap-Portfolio-Project#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
