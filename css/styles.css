@@ -405,3 +405,13 @@ iframe {
 .btn-contact  {
     color: maroon;
 }
+
+.portfolio {
+    max-width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.row {
+    
+}
