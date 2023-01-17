@@ -2,8 +2,9 @@
   "name": "bootstrap-portfolio-project",
   "version": "1.0.0",
   "description": "Project using Bootstrap for NuCamp",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
+    "start": "lite-server",
     "clean": "rimraf dist",
     "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "imagemin": "imagemin img/* -o dist/img",
@@ -20,9 +21,9 @@
   },
   "homepage": "https://github.com/erinsgithubpage/Bootstrap-Portfolio-Project#readme",
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
-    "javascript": "^1.0.0",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.3",
     "popper.js": "^1.16.1"
   },
   "devDependencies": {
