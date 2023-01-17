@@ -11,6 +11,7 @@ $(function() {
             $("#carouselButton").children("i").addClass("fa-pause"); 
         }
     });
+});
 
     //code from testimonials here
     var slideIndex = 1;
